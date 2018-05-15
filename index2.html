@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NBA Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+<style>
+    body { 
+        background-image: url("assets/images/nba_teams_by_danielboveportillo-d5f4q78.jpg");
+    }
+</style>
+<body>
+<div class="container bg-secondary">
+  <div class="row">
+    <div class="col-sm"></div>
+    <div class="col-sm">
+        <h1 class="">NBA Trivia Game</h1>
+        <br>
+        <div id="timer"><h4>Time Remaining: </h4></div>
+        <br>
+        <div id="q1">
+            <h3>1. Which NBA team was Michael Jordan part of?</h3>
+				<input type="radio" name="q1" value="la1">LA lakers
+				<input type="radio" name="q1" value="chicago1">Chicago Bulls
+				<input type="radio" name="q1" value="portland1">Portland Trail Blazers
+				<input type="radio" name="q1" value="miami1">Miami Heat
+        </div>
+        <br>
+        <div id="q2">
+            <h3>2. What team drafted Kobe Bryant?</h3>
+				<input type="radio" name="q2" value="hornets2">Charlotte Hornets
+				<input type="radio" name="q2" value="la2">LA Lakers
+				<input type="radio" name="q2" value="kings2">Sacramento Kings
+				<input type="radio" name="q2" value="spurs2">San Antonio Spurs
+        </div>
+        <br>
+        <div id="q3">
+            <h3>3. Which Team has the most wins ever during regular season?</h3>
+				<input type="radio" name="q3" value="warriors3">Golden State Warriors
+				<input type="radio" name="q3" value="raptors3">Toronto Raptors
+				<input type="radio" name="q3" value="knicks3">New York Knicks
+				<input type="radio" name="q3" value="magic3">Orlando Magic
+        </div>
+        <br>
+        <div id="q4">
+            <h3>4. Who is the tallest everyday point guard of all time?</h3>
+				<input type="radio" name="q4" value="lebron4">Lebron James
+				<input type="radio" name="q4" value="demar4">Demar Derozan
+				<input type="radio" name="q4" value="magic4">Magic Johnson
+				<input type="radio" name="q4" value="nash4">Steve Nash
+        </div>
+        <br>
+        <div id="q5">
+            <h3>5. Which team drafted Lebron James?</h3>
+				<input type="radio" name="q5" value="raptors5">Toronto Raptors
+				<input type="radio" name="q5" value="la5">LA Lakers
+				<input type="radio" name="q5" value="heat5">Miami Heat
+				<input type="radio" name="q5" value="cavaliers5">Cleveland Cavaliers
+        </div>
+        <br>
+        <div id="q6">
+            <h3>6. Who has the most coaching titles?</h3>
+				<input type="radio" name="q6" value="phil6">Phil Jackson
+				<input type="radio" name="q6" value="kerr6">Steve Kerr
+				<input type="radio" name="q6" value="pop6">Greg Popovich
+				<input type="radio" name="q6" value="casey6">Dwane Casey
+        </div>
+        <br>
+        <div id="q7">
+            <h3>7. What team drafted Ray Allen?</h3>
+				<input type="radio" name="q7" value="raptors7">Toronto Raptors
+				<input type="radio" name="q7" value="timberwolves7">Minnesota Timberwolves
+				<input type="radio" name="q7" value="nets7">Brooklyn Nets
+				<input type="radio" name="q7" value="heat7">Miami Heat
+        </div>
+        <br>
+        <div id="q8">
+            <h3>8. What is the most points scored in an NBA game?</h3>
+				<input type="radio" name="q8" value="28">28
+				<input type="radio" name="q8" value="70">70
+				<input type="radio" name="q8" value="100">100
+				<input type="radio" name="q8" value="81">81
+        </div>
+        <br>
+        <div id="doneButton">
+            <a href="index2.html" class="btn btn-primary btn-lg active" id="startBtn" role="button" aria-pressed="true"><h2>DONE</h2></a>
+        </div>
+        <br>
+        <p>@copyright Daniel Chen</p>
+    </div>
+    <div class="col-sm"></div>
+  </div>
+</div>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
